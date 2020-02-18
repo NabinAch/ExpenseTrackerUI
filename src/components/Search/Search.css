@@ -1,0 +1,30 @@
+.result {
+  margin-top: 50px;
+}
+
+.total {
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: white;
+  border-color: rgb(206, 212, 218);
+}
+
+.btn-primary :hover {
+  color: #fff;
+  background-color: rgb(206, 212, 218) !important;
+}
+
+.search-button {
+  /* margin-top: 31px; */
+}
+
+input:disabled {
+  color: -internal-light-dark-color(rgb(84, 84, 84), rgb(170, 170, 170)) !important;
+  cursor: default;
+  background-color: #c5c3c3;
+}

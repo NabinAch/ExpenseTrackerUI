@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.main-container {
+  width: 80%;
+  margin: 10% auto;
+  max-width: 1350px;
+  margin-top: 5px;
+  display: flex;
+}
+
+.sidebar {
+  width: 15%;
+  display: flex;
+}
+
+.canvas {
+  width: 75%;
+  /* display: flex; */
+}
